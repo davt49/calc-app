@@ -14,9 +14,9 @@ jobs:
       - run: echo "Hello World! This is a demo for build and push docker image of this app, check github marketplace for more setups"
 
       - name: Build and Push Docker Image
-        uses: mr-smithers-excellent/docker-build-push@v5
-        with:
-          image: davt49/calc-docker
-          registry: docker.io
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+       uses: mr-smithers-excellent/docker-build-push@v5
+       with:
+         image: davt49/calc-docker
+         registry: docker.io
+         username: ${{ secrets.DOCKER_USERNAME }}
+         password: ${{ secrets.DOCKER_PASSWORD }}

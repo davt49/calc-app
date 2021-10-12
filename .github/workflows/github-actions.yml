@@ -11,7 +11,7 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
-      - run: echo "David says Hello World"
+      - run: echo "Hello World! This is a demo for build and push docker image of this app, check github marketplace for more setups"
 
       - name: Build and Push Docker Image
         uses: mr-smithers-excellent/docker-build-push@v5

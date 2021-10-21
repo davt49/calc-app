@@ -41,6 +41,8 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript XML
 - [React](https://reactjs.org/) - JS library
+- CI/CD workflow with Github Actions
+- Docker build deployment
 
 
 ### What I learned

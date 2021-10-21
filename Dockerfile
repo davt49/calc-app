@@ -1,5 +1,5 @@
 
-# fine the latest node js version LPS, Ubuntu-buster
+#find the latest node js version LPS, Ubuntu-buster
 FROM node:14.18.0-buster
 #workdir could be anything will be created
 WORKDIR /app

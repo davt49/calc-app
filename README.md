@@ -88,8 +88,3 @@ The theme changes are handled really efficiently by simply changing the theme cl
 ## Author
 
 - Website - [David Tsui](https://davidtsui.co.uk)
-
-
-## Acknowledgments
-
-Thanks to Frontend Mentor for the challenge!
